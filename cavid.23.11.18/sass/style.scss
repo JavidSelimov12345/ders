@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+
+    .ledder{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: gray;
+        right: 0;
+        bottom: 0;
+        display: none;
+        .dri{
+            top:0;
+            right: 0;
+        }
+        .forma{
+            width: 300px;
+            position: absolute;;
+            bottom: 0;
+            right: 0;
+        }
+
+    }
+    .click{
+        padding: 10px;
+        width: 300px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        display:block;
+    }
+}
